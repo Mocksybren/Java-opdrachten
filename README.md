@@ -1,2 +1,2 @@
 # Java-opdrachten
-Opdrachten windesheim java/ oop
+Opdrachten windesheim java/oop

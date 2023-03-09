@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;fxb0201&apos; to &apos;fxb0203&apos;&#x0D;&#x0A;- Original project: &apos;FXOefening3&apos;&#x0D;&#x0A;- Original element: &apos;FXOefening3/src/fxb0201&apos;&#x0D;&#x0A;- Renamed element: &apos;FXOefening3/src/fxb0203&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename package &apos;fxb0201&apos;" flags="589830" hierarchical="false" id="org.eclipse.jdt.ui.rename.package" input="/src&lt;fxb0201" name="fxb0203" qualified="false" references="true" stamp="1678269049106" textual="false" version="1.0"/>
+</session>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move element &apos;fxvb0203.java&apos; to &apos;FXOefening3/src/fxb0203&apos;&#x0D;&#x0A;- Original project: &apos;FXOefening2&apos;&#x0D;&#x0A;- Destination element: &apos;FXOefening3/src/fxb0203&apos;&#x0D;&#x0A;- Original element: &apos;fxvb0202.fxvb0203.java&apos;&#x0D;&#x0A;- Update references to refactored element" description="Move compilation unit" destination="=FXOefening3/src&lt;fxb0203" element1="/src&lt;fxvb0202{fxvb0203.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.move" patterns="*" policy="org.eclipse.jdt.ui.moveResources" qualified="false" references="true" stamp="1678269059014" units="1" version="1.0"/>
+</session>

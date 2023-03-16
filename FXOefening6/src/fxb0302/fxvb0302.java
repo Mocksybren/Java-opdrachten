@@ -22,7 +22,7 @@ public class fxvb0302 {
 		tekstsom = new Text(50,50, "De som is " + som);
 		tekstverschil = new Text(50,70, "Het verschil is " + verschil);
 		tekstproduct = new Text(50,90, "Het product is " + product);
-		tekstquotient = new Text(50, 110, "Het quitient is " + quotient);
+		tekstquotient = new Text(50, 110, "Het quotient is " + quotient);
 		tekstrest = new Text(50,130, "De rest is " + rest);
 	
 	p.getChildren().addAll(tekstab,tekstsom,tekstverschil,tekstproduct,tekstquotient,tekstrest);

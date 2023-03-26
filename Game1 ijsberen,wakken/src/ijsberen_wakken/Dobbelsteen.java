@@ -10,7 +10,7 @@ public class Dobbelsteen {
 	public Dobbelsteen() {
 		
 	}
-	
+			//Dobbel 1 tot 6
 	public void dobbel() {
 		Random rand = new Random();
 		worp = rand.nextInt( zijdes ) + 1;

@@ -1,19 +1,17 @@
 package ijsberen_wakken;
-import java.util.*;
 import javafx.application.Application;
 import javafx.scene.Scene;
-import javafx.scene.layout.FlowPane;
 import javafx.stage.Stage;
 //base import application
 
 
-public class Dobbel_Paneel extends Application {
+public class BasePlate extends Application {
  @Override
 	public void start(Stage primaryStage) {
-	 FlowPane root = new FlowPane();
+	  root = new ();
 	 Scene scene = new Scene(root, 600, 300);
 	 primaryStage.setScene(scene);
-	 primaryStage.setTitle("Base Application");
+	 primaryStage.setTitle("Ijsberen, wakken & Pingiungs");
 	 primaryStage.show();
 	 
  }
@@ -21,5 +19,3 @@ public class Dobbel_Paneel extends Application {
  		launch(args);
  	}
 }
-
-

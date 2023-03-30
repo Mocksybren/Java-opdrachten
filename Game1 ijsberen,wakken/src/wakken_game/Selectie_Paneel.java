@@ -173,10 +173,7 @@ if(Aantaldobbel == 3) {
 
 	
 	}
-private void foreach(int aantaldobbel2, boolean add) {
-	// TODO Auto-generated method stub
-	
-}
+
 public void Setdobbelaantal(int aantaldobbel) {
 	this.aantaldobbelstenen = aantaldobbel;}
 }

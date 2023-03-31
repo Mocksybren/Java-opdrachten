@@ -1,14 +1,18 @@
 package wakken_game;
 
+import java.util.ArrayList;
+
 import javafx.event.ActionEvent;
 import javafx.event.EventHandler;
 import javafx.geometry.Pos;
 import javafx.scene.control.Button;
 import javafx.scene.control.ComboBox;
 import javafx.scene.control.Label;
+import javafx.scene.control.TextField;
 import javafx.scene.layout.StackPane;
 import javafx.scene.paint.Color;
 import javafx.scene.shape.Rectangle;
+import javafx.scene.layout.GridPane;
 import javafx.scene.layout.HBox;
 
 public class Selectie_Paneel extends StackPane {
@@ -19,10 +23,18 @@ public class Selectie_Paneel extends StackPane {
 	@SuppressWarnings("unused")
 	private int aantaldobbelstenen;	
 	private StackPane parent;
-	private int wak = 0;
+	int wak = 0;
 	private int beer = 0;
 	private int ping = 0;
 	private int worp = 0;
+
+	int Gebrwakken;
+	private int Gebrbeer;
+	private int Gebrping;
+	Button contrknop = new Button("Controleer");
+	TextField Text1 = new TextField("");
+	 TextField Text2 = new TextField("");
+	 TextField Text3 = new TextField("");
 
 	
 public Selectie_Paneel(StackPane parent) {
@@ -78,22 +90,25 @@ private EventHandler<ActionEvent> opdobbelknopactie(final ComboBox<String> dobbe
 	    	 Object object = dobbelaantal.getValue();
 				Aantaldobbel = Integer.valueOf((String) object);
 				spelstart();
+				
 	    }
 	};
 }
 
+
 public void Dobbelstenen() {
-
-	//individuele dobbelstenen maken
-
-		Dobbelsteen dobbelsteen1 = new Dobbelsteen();
-		Dobbelsteen dobbelsteen2 = new Dobbelsteen();
-		Dobbelsteen dobbelsteen3 = new Dobbelsteen();
-		Dobbelsteen dobbelsteen4 = new Dobbelsteen();
-		Dobbelsteen dobbelsteen5 = new Dobbelsteen();
-		Dobbelsteen dobbelsteen6 = new Dobbelsteen();
-		Dobbelsteen dobbelsteen7 = new Dobbelsteen();
-		Dobbelsteen dobbelsteen8 = new Dobbelsteen();
+ArrayList<Dobbelsteen> Obbelstenen;
+Dobbelsteen obbelsteen;
+//individuele dobbelstenen maken
+Obbelstenen = new ArrayList<Dobbelsteen>(Aantaldobbel);
+		//Dobbelsteen dobbelsteen1 = new Dobbelsteen();
+		//Dobbelsteen dobbelsteen2 = new Dobbelsteen();
+		//Dobbelsteen dobbelsteen3 = new Dobbelsteen();
+		//Dobbelsteen dobbelsteen4 = new Dobbelsteen();
+		//Dobbelsteen dobbelsteen5 = new Dobbelsteen();
+		//Dobbelsteen dobbelsteen6 = new Dobbelsteen();
+		//Dobbelsteen dobbelsteen7 = new Dobbelsteen();
+		//Dobbelsteen dobbelsteen8 = new Dobbelsteen();
 	
 
 //inviduele dobbelstenen maken
@@ -106,7 +121,7 @@ public void Dobbelstenen() {
 			//maak paneel blauw
 	//aantal dobbelstenen
 		
-if(Aantaldobbel == 3) {
+/*if(Aantaldobbel == 3) {
 		parent.getChildren().addAll(dobbelsteen1,dobbelsteen2,dobbelsteen3);
 } else if(Aantaldobbel == 4) {
 	parent.getChildren().addAll(dobbelsteen1,dobbelsteen2,dobbelsteen3,dobbelsteen4);
@@ -165,7 +180,7 @@ if(Aantaldobbel == 3) {
 		dobbelsteen8.setTranslateY((35 + tussenstuk) * -1 );
 		
 //Dobbelsteen offset	
-
+*/
 		
 												int worp1 = dobbelsteen1.getWorp();
 												int worp2 = dobbelsteen2.getWorp();
@@ -177,7 +192,7 @@ if(Aantaldobbel == 3) {
 												int worp8 = dobbelsteen8.getWorp();
 												
 	for(int i= 0;i < Aantaldobbel; i ++ ) {
-		System.out.println("I is:"+ i);
+		
 		if(i == 0) {worp = worp1;} else 
 			if(i == 1) {worp = worp2;} else 
 				if(i == 2) {worp = worp3;} else 

@@ -20,16 +20,22 @@ public Score_Paneel() {
 	 label.setFont(Font.font("Arial",20));
 	 
 	 this.label1 = new Label();
-	 label1.setText("");
+	 label1.setText("11");
+	 this.label1.setTranslateX(-80);
+	 this.label1.setTranslateY(-40);
+	 label1.setFont(Font.font("Arial",20));
 	 
 	 this.label2 = new Label("Pogingen fout:");
 	 this.label2.setTranslateX(-186);
 	 this.label2.setTranslateY(-20);
 	 label2.setFont(Font.font("Arial",20));
 	 
-	 
 	 this.label3 = new Label();
-	 label3.setText("");
+	 label3.setText("3");
+	 label3.setTranslateX(-80);
+	 label3.setTranslateY(-20);
+	 label3.setFont(Font.font("Arial",20));
+	 
 	 
 	Rectangle rechthoek = new Rectangle(600,100);
 	 rechthoek.setFill(Color.RED);

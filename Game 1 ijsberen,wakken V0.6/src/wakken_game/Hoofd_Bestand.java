@@ -29,9 +29,9 @@ public class Hoofd_Bestand extends Application {
 	 initheader(VBox);
 	 StackPane dobbel = initdobbelpaneel(VBox);
 	 initselectiepaneel(VBox, dobbel);
-	 
-	 initscorepaneel(VBox);
 	 initinvulpaneel(VBox);
+	 initscorepaneel(VBox);
+	 
 	 //aanroepen van layout
  }
  
@@ -61,29 +61,33 @@ private void initinvulpaneel(VBox VBox) {
 	 VBox.getChildren().add(invul_paneel);
 }
  
-public void getWak() {
-	selectie_paneel.getWak();
+
+public int getWak() {
+	return selectie_paneel.getWak();
 }
-public void getBeer() {
-	selectie_paneel.getBeer();
+public int getBeer() {
+	return selectie_paneel.getBeer();
 }
-public void getPing() {
-	selectie_paneel.getPing();
+public int getPing() {
+	return selectie_paneel.getPing();
 }
-public void getGebrwakken(){
-	invul_paneel.getGebrwakken();
+public int getGebrwakken(){
+	return invul_paneel.getGebrwakken();
 }
-public void getGebrbeer(){
-	invul_paneel.getGebrbeer();
+public int getGebrbeer(){
+	return invul_paneel.getGebrbeer();
 }
-public void getGebrping(){
-	invul_paneel.getGebrping();
+public int getGebrping(){
+	return invul_paneel.getGebrping();
 }
 
-private void wakken() {
-	if(selectie_paneel.getWak() == invul_paneel.getGebrwakken()) {
+public void wakken() {
+	if(getWak() == getGebrwakken()) {
 		int wakgoed = 1;
 		System.out.println("Wak veld is goed:"+ wakgoed);
+		if (wakgoed == 1) {
+			invul_paneel.Text1.setEditable(false);
+		}
 	}
 }
 

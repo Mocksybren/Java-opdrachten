@@ -30,8 +30,9 @@
     <fullyQualifiedTypeName name="javafx.scene.control.TextField"/>
     <fullyQualifiedTypeName name="javafx.scene.control.Label"/>
     <fullyQualifiedTypeName name="javafx.scene.layout.GridPane"/>
-    <fullyQualifiedTypeName name="wakken_game.Selectie_Paneel"/>
-    <fullyQualifiedTypeName name="wakken_game.Hoofd_Bestand"/>
     <fullyQualifiedTypeName name="javafx.event.EventHandler"/>
     <fullyQualifiedTypeName name="javafx.event.ActionEvent"/>
+    <fullyQualifiedTypeName name="wakken_game.Selectie_Paneel"/>
+    <fullyQualifiedTypeName name="wakken_game.Hoofd_Bestand"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
 </qualifiedTypeNameHistroy>
